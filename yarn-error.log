@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/bin/node /root/.yarn/bin/yarn.js add @types/google @types/google.maps
+  /usr/bin/node /root/.yarn/bin/yarn.js add google.maps
 
 PATH: 
   /root/.yarn/bin:/root/.config/yarn/global/node_modules/.bin:/mnt/blockstorage/go/bin:/root/.composer/vendor/bin:/root/.vscode-server/bin/b4c1bd0a9b03c749ea011b06c6d2676c8091a70c/bin:/root/.yarn/bin:/root/.config/yarn/global/node_modules/.bin:/mnt/blockstorage/go/bin:/root/.composer/vendor/bin:/root/.vscode-server/bin/b4c1bd0a9b03c749ea011b06c6d2676c8091a70c/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
@@ -14,7 +14,7 @@ Platform:
   linux x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@types%2fgoogle: Not found
+  Error: https://registry.yarnpkg.com/google.maps: Not found
       at Request.params.callback [as _callback] (/root/.yarn/lib/cli.js:66988:18)
       at Request.self.callback (/root/.yarn/lib/cli.js:140749:22)
       at Request.emit (events.js:315:20)
@@ -39,6 +39,7 @@ npm manifest:
       "@googlemaps/js-api-loader": "^1.12.1",
       "@ipregistry/client": "^4.0.0",
       "@types/debounce": "^1.2.0",
+      "@types/google.maps": "^3.45.3",
       "@types/node-geocoder": "^3.24.1",
       "axios": "^0.21.1",
       "debounce": "^1.2.1",
@@ -143,6 +144,11 @@ Lockfile:
     version "1.2.0"
     resolved "https://registry.yarnpkg.com/@types/debounce/-/debounce-1.2.0.tgz#9ee99259f41018c640b3929e1bb32c3dcecdb192"
     integrity sha512-bWG5wapaWgbss9E238T0R6bfo5Fh3OkeoSt245CM7JJwVwpw6MEBCbIxLq5z8KzsE3uJhzcIuQkyiZmzV3M/Dw==
+  
+  "@types/google.maps@^3.45.3":
+    version "3.45.3"
+    resolved "https://registry.yarnpkg.com/@types/google.maps/-/google.maps-3.45.3.tgz#4988bdb44d5665b4f518d6b0769bde09f27ff99a"
+    integrity sha512-UZHD7qch+44XFNbx/Fjf6NtdpScRWRhfCenvv/pMJfuJ4KQMzapDLqj/OOyHpB8nDp1ilNL3ujPYLY1YZHq1yQ==
   
   "@types/lodash@^4.14.170":
     version "4.14.170"
