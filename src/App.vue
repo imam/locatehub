@@ -120,7 +120,8 @@ export default defineComponent({
         }
       })
 
-      hubWithCalculatedDistances.value = _.orderBy(hubWithDistances, ['distance'])
+      hubWithCalculatedDistances.value = _.orderBy(hubWithDistances, ['distance']);
+      (listOfHubsRef.value as any).scrollTop = 0
       
     }
 
