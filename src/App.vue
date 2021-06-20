@@ -120,9 +120,7 @@ export default defineComponent({
         }
       })
 
-      console.log(_.orderBy(hubWithDistances, ['distance']))
       hubWithCalculatedDistances.value = _.orderBy(hubWithDistances, ['distance'])
-      console.log((listOfHubsRef.value as any).scrollTop = 0)
       
     }
 
@@ -183,7 +181,6 @@ export default defineComponent({
     })
 
     watch(currentMapCenter, data => {
-      console.log(data)
       calcDistanceToHubs(data) 
     })
 
