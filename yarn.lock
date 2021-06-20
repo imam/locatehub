@@ -75,6 +75,11 @@
   resolved "https://registry.yarnpkg.com/@types/debounce/-/debounce-1.2.0.tgz#9ee99259f41018c640b3929e1bb32c3dcecdb192"
   integrity sha512-bWG5wapaWgbss9E238T0R6bfo5Fh3OkeoSt245CM7JJwVwpw6MEBCbIxLq5z8KzsE3uJhzcIuQkyiZmzV3M/Dw==
 
+"@types/google.maps@^3.45.3":
+  version "3.45.3"
+  resolved "https://registry.yarnpkg.com/@types/google.maps/-/google.maps-3.45.3.tgz#4988bdb44d5665b4f518d6b0769bde09f27ff99a"
+  integrity sha512-UZHD7qch+44XFNbx/Fjf6NtdpScRWRhfCenvv/pMJfuJ4KQMzapDLqj/OOyHpB8nDp1ilNL3ujPYLY1YZHq1yQ==
+
 "@types/lodash@^4.14.170":
   version "4.14.170"
   resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.170.tgz#0d67711d4bf7f4ca5147e9091b847479b87925d6"
